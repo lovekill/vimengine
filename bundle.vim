@@ -1,8 +1,8 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-"set rtp+=~/.vim/bundle/vundle/
-set rtp+=$VIM_HOME/vimfiles/bundle/vundle/
+set rtp+=~/.vim/bundle/vundle/
+"set rtp+=$VIM_HOME/vimfiles/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
@@ -30,7 +30,7 @@ Bundle 'bpowell/vim-android'
 "-----------------
 Bundle 'edsono/vim-matchit'
 Bundle 'Lokaltog/vim-easymotion'
-
+Bundle 'yegappan/mru'
 "--------------
 " Fast editing
 "--------------
