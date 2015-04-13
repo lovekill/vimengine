@@ -147,6 +147,7 @@ let MRU_Max_Entries = 1000
 let MRU_Window_Height = 15
 let MRU_Use_Current_Window = 1 
 let MRU_Auto_Close=0 
+imap <C-e> :MRU<cr>
 " Nerd Tree
 let NERDChristmasTree=0
 let NERDTreeWinSize=30
