@@ -12,7 +12,7 @@ Bundle 'gmarik/vundle'
 "------------------
 " Code Completions
 "------------------
-Bundle 'Shougo/neocomplcache'
+"Bundle 'Shougo/neocomplcache'
 Bundle 'mattn/emmet-vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'ervandew/supertab'
@@ -45,7 +45,7 @@ Bundle 'nathanaelkane/vim-indent-guides'
 "--------------
 Bundle 'scrooloose/nerdtree'
 "Bundle 'humiaozuzu/TabBar'
-Bundle "vim-scripts/TabBar"
+"Bundle "vim-scripts/TabBar"
 Bundle 'majutsushi/tagbar'
 Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
@@ -53,6 +53,13 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/syntastic'
 Bundle 'bronson/vim-trailing-whitespace'
+"YCM
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'SirVer/ultisnips'
+Bundle 'sukima/xmledit'
+"django
+Bundle 'django.vim'
+Bundle 'project.tar.gz'
 
 "-------------
 " Other Utils
