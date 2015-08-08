@@ -60,7 +60,8 @@ Bundle 'sukima/xmledit'
 "django
 Bundle 'django.vim'
 Bundle 'project.tar.gz'
-
+"smali
+Bundle 'kelwin/vim-smali'
 "-------------
 " Other Utils
 "-------------

@@ -1,5 +1,6 @@
-"source ~/.vim/bundles.vim
-source $VIM_HOME/bundle.vim
+source ~/.vim/vimengine/bundle.vim
+"source $VIM_HOME/bundle.vim
+
 " encoding dectection
 set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
 " enable filetype dectection and ft specific plugin/indent
@@ -245,8 +246,8 @@ if has("gui_running")
     "set transparency=30
     set guifont=Monaco:h13
     set showtabline=2
-    set columns=100
-    set lines=20
+    set columns=140
+    set lines=40
     noremap <D-M-Left> :tabprevious<cr>
     noremap <D-M-Right> :tabnext<cr>
     map <D-1> 1gt
