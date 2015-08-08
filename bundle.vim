@@ -17,7 +17,7 @@ Bundle 'mattn/emmet-vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'ervandew/supertab'
 " snippets
-Bundle 'garbas/vim-snipmate'
+"Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
 "------ snipmate dependencies -------
 Bundle 'MarcWeber/vim-addon-mw-utils'
@@ -45,7 +45,7 @@ Bundle 'nathanaelkane/vim-indent-guides'
 "--------------
 Bundle 'scrooloose/nerdtree'
 "Bundle 'humiaozuzu/TabBar'
-"Bundle "vim-scripts/TabBar"
+Bundle "vim-scripts/TabBar"
 Bundle 'majutsushi/tagbar'
 Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
@@ -116,5 +116,5 @@ Bundle 'fisadev/fisa-vim-colorscheme'
 Bundle 'OmniCppComplete'
 Bundle 'vim-scripts/a.vim'
 "----python------
-Bundle 'vim-scripts/Pydiction'
+"Bundle 'vim-scripts/Pydiction'
 filetype plugin indent on     " required!
