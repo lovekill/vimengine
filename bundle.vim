@@ -8,6 +8,7 @@ call vundle#rc()
 " let Vundle manage Vundle
 " required!
 Bundle 'gmarik/vundle'
+Bundle 'vim-scripts/matrix.vim--Yang'
 
 "------------------
 " Code Completions
@@ -16,6 +17,14 @@ Bundle 'gmarik/vundle'
 Bundle 'mattn/emmet-vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'ervandew/supertab'
+
+"------------------
+" PHP Code Completions
+"------------------
+Bundle 'Shougo/vimproc'
+Bundle 'Shougo/unite.vim'
+Bundle 'm2mdas/phpcomplete-extended'
+Bundle 'davidhalter/jedi-vim'
 " snippets
 "Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
@@ -45,7 +54,8 @@ Bundle 'nathanaelkane/vim-indent-guides'
 "--------------
 Bundle 'scrooloose/nerdtree'
 "Bundle 'humiaozuzu/TabBar'
-Bundle "vim-scripts/TabBar"
+Bundle 'minibufexpl.vim'
+"Bundle "vim-scripts/TabBar"
 Bundle 'majutsushi/tagbar'
 Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
@@ -58,7 +68,7 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'SirVer/ultisnips'
 Bundle 'sukima/xmledit'
 "django
-Bundle 'django.vim'
+"Bundle 'django.vim'
 Bundle 'project.tar.gz'
 "smali
 Bundle 'kelwin/vim-smali'
