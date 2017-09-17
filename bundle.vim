@@ -21,9 +21,7 @@ Bundle 'ervandew/supertab'
 "------------------
 " PHP Code Completions
 "------------------
-Bundle 'Shougo/vimproc'
 Bundle 'Shougo/unite.vim'
-Bundle 'm2mdas/phpcomplete-extended'
 Bundle 'davidhalter/jedi-vim'
 " snippets
 "Bundle 'garbas/vim-snipmate'
@@ -100,6 +98,7 @@ Bundle 'nono/jquery.vim'
 "------- markup language -------
 Bundle 'tpope/vim-markdown'
 " Bundle 'timcharper/textile.vim'
+Plugin 'suan/vim-instant-markdown'
 
 "------- Ruby --------
 " Bundle 'tpope/vim-endwise'
