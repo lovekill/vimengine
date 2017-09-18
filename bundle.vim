@@ -1,7 +1,7 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/vimengine/vundle
 "set rtp+=$VIM_HOME/vimfiles/bundle/vundle/
 call vundle#rc()
 
@@ -18,6 +18,10 @@ Bundle 'mattn/emmet-vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'ervandew/supertab'
 
+"------------------
+" jsx
+"------------------
+Bundle 'mxw/vim-jsx'
 "------------------
 " PHP Code Completions
 "------------------
@@ -100,6 +104,7 @@ Bundle 'nono/jquery.vim'
 "------- markup language -------
 Bundle 'tpope/vim-markdown'
 " Bundle 'timcharper/textile.vim'
+Plugin 'suan/vim-instant-markdown'
 
 "------- Ruby --------
 " Bundle 'tpope/vim-endwise'
