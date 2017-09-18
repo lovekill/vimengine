@@ -25,9 +25,7 @@ Bundle 'mxw/vim-jsx'
 "------------------
 " PHP Code Completions
 "------------------
-Bundle 'Shougo/vimproc'
 Bundle 'Shougo/unite.vim'
-Bundle 'm2mdas/phpcomplete-extended'
 Bundle 'davidhalter/jedi-vim'
 " snippets
 "Bundle 'garbas/vim-snipmate'
